@@ -10,5 +10,11 @@ public class MainController  {
         return "Hello from Spring!";
     }
 
+    @GetMapping("/")
+    public String index() {
+        return "templates/index";
+    }
+
+
 }
 
